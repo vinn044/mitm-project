@@ -157,7 +157,7 @@ you should see inet 192.168.56.101/24 under enp0s8
 
 part 7: setup demo http server
 mkdir ~/demo-site
-echo "<h1> Victim Web Server</h1><p>password=hunter2</p>" > ~/demo-site/index.html
+echo "<h1 <!--in terminal-> >Victim Web Server</h1><p>password=hunter2</p>" > ~/demo-site/index.html 
 
 to start during demo:
 cd ~/demo-site && python3 -m http.server 8080
